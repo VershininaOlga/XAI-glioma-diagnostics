@@ -90,11 +90,14 @@ As a result of running the script, a ```results``` folder will be generated, whi
 
 
 ### Interpretation of explainability plots for the glioma subtype classification model
-![illustration](image/illustration_1.png)
+![illustration](images/illustration_1.png)
 For each patient, three graphs are constructed to explain the prediction of each possible class. For each class the y-axis displays the features (genes) from bottom to top in ascending order based on their contribution to the prediction. The x-axis shows the probability of predicting the corresponding class. The bottom of each graph shows the base probability of the model, E[f(X)], from which the prediction begins. Each band of the graph shows how much and in which direction the value of the feature changes the prediction. Blue bands correspond to features whose values ​​decrease the probability of the corresponding class, and red bands correspond to features whose values ​​increase the probability of the corresponding class. The resulting prediction of the model is the class with the highest probability f(x).
 
 
 ### Interpretation of explainability plots for the survival prediction model
-![illustration](image/illustration_2.png)
+![illustration](images/illustration_2.png)
 The y-axis displays the features (genes) from bottom to top in ascending order based on their contribution to the prediction. The x-axis shows the 12-year ovarall survival probability. The bottom of the graph shows the base probability of the model, E[f(X)], from which the prediction begins. Each band of the graph shows how much and in which direction the value of the feature changes the prediction. Blue bands correspond to features whose values ​​decrease the survival probability, and red bands correspond to features whose values ​​increase the survival probability. The predicted probability of 12-year survival is reflected in f(x).
 
+
+## Citation
+Olga S. Vershinina , Victoria D. Turubanova, Mikhail I. Krivonosov, Arseniy I. Trukhanov and Mikhail V. Ivanchenko. Explainable machine learning models for glioma subtype classification and survival prediction, 2025.
