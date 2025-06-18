@@ -74,8 +74,8 @@ The file with your data should be placed in the ```data``` folder.
 An example data file can be found in ```data/data.xlsx```.  
 Please note that the data should not contain missing values ​​(all samples with missing values ​​will be removed from consideration).
 
-### Running the prediction model
-To run the model:
+### Running prediction models
+To run models:
 ```
 python run_predictions.py --file_name <file_name>
 ```
