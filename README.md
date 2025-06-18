@@ -24,9 +24,9 @@ This repository contains XAI models for predicting glioma subtype (astrocytoma, 
 ├── data                          <- Folder containing data files
 │   └── data.xlsx                     <- Data file example
 │
-├── images                         <- Folder containing examples of explainability plots
+├── images                        <- Folder containing examples of explainability plots
 │
-├── models                         <- Folder containing trained prediction models
+├── models                        <- Folder containing trained prediction models
 │
 ├── results                       <- Results folder (will appear after the predictions are launched)
 │
@@ -37,7 +37,7 @@ This repository contains XAI models for predicting glioma subtype (astrocytoma, 
 │
 ├── requirements.txt              <- File for installing python dependencies
 │
-├── run_predictions.py             <- Script for running prediction models
+├── run_predictions.py            <- Script for running prediction models
 │
 └── README.md                     <- This file
 ```
