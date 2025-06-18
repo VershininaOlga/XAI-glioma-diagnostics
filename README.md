@@ -44,15 +44,15 @@ This repository contains XAI models for predicting glioma subtype (astrocytoma, 
 
 ### Requirements
 Python 3.11  
-openpyxl
-pandas
-matplotlib
-scikit-learn==1.5.1
-torch==2.0.0
-torchtuples==0.2.2
-pycox==0.3.0
-shap==0.46.0
-numpy==1.26.4 
+openpyxl  
+pandas  
+matplotlib  
+scikit-learn==1.5.1  
+torch==2.0.0  
+torchtuples==0.2.2  
+pycox==0.3.0  
+shap==0.46.0  
+numpy==1.26.4  
 
 ### Installing
 ```bash
