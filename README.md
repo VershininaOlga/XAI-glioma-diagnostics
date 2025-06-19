@@ -96,7 +96,7 @@ For each patient, three graphs are constructed to explain the prediction of each
 
 ### Interpretation of explainability plots for the survival prediction model
 ![illustration](images/illustration_2.png)
-The y-axis displays the features (genes) from bottom to top in ascending order based on their contribution to the prediction. The x-axis shows the 12-year ovarall survival probability. The bottom of the graph shows the base probability of the model, E[f(X)], from which the prediction begins. Each band of the graph shows how much and in which direction the value of the feature changes the prediction. Blue bands correspond to features whose values ​​decrease the survival probability, and red bands correspond to features whose values ​​increase the survival probability. The predicted probability of 12-year survival is reflected in f(x).
+The y-axis displays the features (genes) from bottom to top in ascending order based on their contribution to the prediction. The x-axis shows the 12-year overall survival probability. The bottom of the graph shows the base probability of the model, E[f(X)], from which the prediction begins. Each band of the graph shows how much and in which direction the value of the feature changes the prediction. Blue bands correspond to features whose values ​​decrease the survival probability, and red bands correspond to features whose values ​​increase the survival probability. The predicted probability of 12-year survival is reflected in f(x).
 
 
 ## Citation
